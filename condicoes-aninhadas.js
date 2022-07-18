@@ -8,10 +8,12 @@ function media (){
 	var cor = document.getElementsByTagName('body')[0]
 	resultado.innerHTML =`Sua nota final é <strong> ${nota} </strong> !`
 	var img = document.querySelector('#imagem');
+	cor.style.background = 'lavenderblush';
+	
 
 	if (nota> 10 ||nota < 0 ){
 		resultado.innerHTML +=`<br>ERRO! <br> Valor informado é  <strong>
-		inválido!</strong> informe uma nota entre 0 e 10` 
+		inválido</strong>! informe uma nota entre 0 e 10.<br>` 
 		img.setAttribute('src', 'erro.png')
 		img.setAttribute('width', '200px')
 	}
