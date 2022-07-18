@@ -25,7 +25,7 @@ function media (){
 		img.setAttribute('width', '300px')
 	} 
 	else if (nota >=5 && nota < 7){
-		resultado.innerHTML +=`<br>Você foi precisará fazer uma  <strong> Recuperação </strong>!!`
+		resultado.innerHTML +=`<br>Você precisará fazer uma  <strong> Recuperação </strong>!!`
 		cor.style.background = 'goldenrod'
 		img.setAttribute('src', 'recuperacao.png')
 		resultado.innerHTML +=`<br><br><br><strong>Estude mais um pouco!</strong>!!`
