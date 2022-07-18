@@ -25,14 +25,14 @@ function media (){
 		img.setAttribute('width', '300px')
 	} 
 	else if (nota >=5 && nota < 7){
-		resultado.innerHTML =`<br>Você foi precisará fazer uma  <strong> Recuperação </strong>!!`
+		resultado.innerHTML +=`<br>Você foi precisará fazer uma  <strong> Recuperação </strong>!!`
 		cor.style.background = 'goldenrod'
 		img.setAttribute('src', 'recuperacao.png')
 		resultado.innerHTML +=`<br><br><br><strong>Estude mais um pouco!</strong>!!`
 		img.setAttribute('width', '300px')
 	}
 	else {
-		resultado.innerHTML = `<br>Infelizmente você  <strong> NÃO </strong>foi  aprovado!`
+		resultado.innerHTML += `<br>Infelizmente você  <strong> NÃO </strong>foi  aprovado!`
 		cor.style.background = 'tomato'
 		img.setAttribute('src', 'reprovado.png')
 		img.setAttribute('width', '300px')
